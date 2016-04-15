@@ -1,0 +1,230 @@
+/* =======================================
+    style.css
+    use this file for your custom styles
+========================================== */
+
+/* use a box model that makes sense */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* set the default color, font-size, and line height */
+html {
+  color: #333;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+body {
+  font-family: Avenir, Helvetica, serif;
+  background-color: #404749;
+  color: #F5F1E9;
+}
+
+h1 {
+  border: solid #F5F1E9;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 8px;
+}
+
+.recycle {
+  text-align: center;
+  max-width: 60px;
+  margin: 0 auto;
+}
+
+.gluten {
+  text-align: center;
+  max-width: 60px;
+  margin: 0 auto;
+}
+
+.conditioner {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+.wrap {
+  margin: 0 auto;
+  max-width: 500px; /* change this width to make a wider page!*/
+  padding: 1em; /* 1em of padding on the left and right side */
+
+}
+
+.row {
+padding: 10px;
+}
+
+nav li {
+  display: inline-block;
+  border: solid #F5F1E9;
+  text-align: center;
+  padding: 10px;
+  background-color: #F5F1E9;
+  font-weight: bold;
+}
+
+.back {
+  text-align: center;
+
+}
+
+
+nav a:visited {
+    color: #404749;
+  }
+
+nav a:hover {
+  color: #99B898;
+}
+
+nav a:link {
+  text-decoration: none;
+  color: #404749;
+
+}
+
+a:link {
+  color: #F5F1E9;
+
+}
+
+a:hover {
+  color: #99B898;
+}
+
+a:visited {
+  color: #F5F1E9;
+}
+
+
+.photo2 {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.photo1 {
+  max-width: 60px;
+  margin: 0 auto;
+
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+/* make images and embedded media fluid */
+img,
+object {
+  max-width: 100%;
+}
+
+/* type hierarchy- change for your project */
+h1 {
+  font-size: 3em; /* 48px */
+}
+
+h2 {
+  font-size: 2.25em /* 36px */
+}
+
+h3 {
+  font-size: 1.75em /* 28px */
+}
+
+h4 {
+  font-size: 1.125em /*18px */
+}
+
+/* navigation list styles */
+.navigation {
+  list-style: none;
+  margin: 0 auto;
+  padding: 2px;
+  text-align: center;
+}
+
+/* =======================================
+    author styles
+    place your custom styles below here
+========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================================
+    Layout
+    keep this at the bottom
+========================================== */
+
+@media (min-width: 620px) {
+  .column {
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .column.full {
+    width: 100%;
+  }
+
+  .column.two-thirds {
+    width: 66.7%;
+  }
+
+  .column.half {
+    width: 50%;
+  }
+
+  .column.third {
+    width: 33.3%;
+  }
+
+  .column.fourth {
+    width: 25%;
+  }
+
+  .column.flow-opposite {
+    float: right;
+  }
+}
+
+
+/* row used as a clearfix to clear floats */
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.row {
+  *zoom: 1;
+}
